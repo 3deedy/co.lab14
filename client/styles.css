@@ -1,0 +1,36 @@
+body {
+	background-color: maroon;
+}
+
+h1 {
+	color: white;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+}
+
+#chirp-list {
+background-color: white;
+margin: 0 auto;
+text-align: center;
+}
+
+#chirp-btn {
+background-color: white;
+color: maroon;
+border: 1px solid maroon;
+}
+
+.chirp {
+	border-bottom: 2px dotted maroon; 
+	
+}
+
+#chirp-field {
+	width: 1368px;
+	/*max-width: 1368px;*/
+	text-align: center;
+}
+
+
+/*WINDOW RESIZE MESSES UP CHIRP BOX WIDTH*/
